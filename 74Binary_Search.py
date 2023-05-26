@@ -9,9 +9,9 @@ def BinarySearch(list,n):
             return  True
         else:
             if list[mid]<n:
-                l=mid
+                l=mid+1
             else:
-                u=mid
+                u=mid-1
     return  False
 
 list=[4,5,34,65,251,999]
